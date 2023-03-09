@@ -26,7 +26,3 @@ fn main() {
     println!("1 new news article: {}", news.summarize());
     println!("1 new paper: {}", paper.summarize());
 }
-
-fn notify(item: &impl Summary) {
-    println!("Breaking news! {}", item.summarize());
-}
