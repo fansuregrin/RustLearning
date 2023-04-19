@@ -34,19 +34,27 @@ impl Guess {
     }
 }
 
-#[cfg(test)]
+#[allow(unused)]
+fn prints_and_returns_ten(a: i32) -> i32 {
+    println!("I got the value {}", a);
+    10
+}
+
+// Unit Tests
+#[cfg(test)] // This line tells Rust to compile and run the test code only when you run `cargo test`.
 mod tests {
-    use super::*;
+    use super::*; // This line brings all of the test module’s parent’s items into scope
+    // Rust’s privacy rules do allow you to test private functions
 
     #[test]
     fn it_adds_two() {
         assert_eq!(4, add_two(2));
     }
 
-    #[test]
-    fn it_will_fail() {
-        panic!("Make this test fail.")
-    }
+    // #[test]
+    // fn it_will_fail() {
+    //     panic!("Make this test fail.")
+    // }
 
     #[test]
     fn larger_can_hold_smaller() {
@@ -108,5 +116,37 @@ mod tests {
         } else {
             Err(String::from("two plus to two does not equal to four!"))
         }
+    }
+
+    // By default, if a test passes, Rust’s test library captures anything printed to standard output.
+    // If we want to see printed values for passing tests as well, we can tell Rust to also show
+    // the output of successful tests with `--show-output`. 
+    #[test]
+    fn this_test_will_pass() {
+        let value = prints_and_returns_ten(1);
+        assert_eq!(10, value);
+    }
+
+    // #[test]
+    // fn this_test_will_fail() {
+    //     let value = prints_and_returns_ten(3);
+    //     assert_eq!(5, value);
+    // }
+
+    // We can run a subset of tests by name.
+    // For example, run `cargo test it_works` to see what will happend
+    // However, we cannot specify the names of multiple tests in this way;
+    // only the first value given to `cargo test` will be used.
+
+    // So, we cann use filter to run multiple tests.
+    // Try to run `cargo test than`.
+
+    // Ignoring Some Tests Unless Specifically Requested
+    // If we want to run only the ignored tests, we can use `cargo test -- --ignored`.
+    // If you want to run all tests whether they’re ignored or not, you can run `cargo test -- --include-ignored`.
+    #[test]
+    #[ignore] // this test will be ignored
+    fn expensive_test() {
+        // code that takes an hour to run
     }
 }
