@@ -24,3 +24,17 @@ There are several notable companies and organizations that use Rust for their pr
 
 ## Is Rust easy to learn?
 Rust is generally considered to be **a more challenging language** for beginners compared to other programming languages such as Python or JavaScript. This is because Rust has a steeper learning curve due to its focus on memory safety and performance, which requires a deeper understanding of computer architecture and low-level programming concepts. However, with dedication and practice, beginners can certainly learn Rust and benefit from its unique features such as strong type checking, ownership model, and concurrency support. There are also many resources available online such as tutorials, documentation, and community forums that can help beginners get started with Rust.
+
+## What's in this repository?
+There are some codes demostrated in the book: [The Rust Programming Language](https://doc.rust-lang.org/book/). Below, I will provide a corresponding list of chapters and codes in the book.
+
+- ch-12: [An I/O Project: Building a Command Line Program](https://doc.rust-lang.org/book/ch12-00-an-io-project.html), [code](https://github.com/fansuregrin/RustLearning/tree/main/minigrep)
+    - Accepting Command Line Arguments
+    - Reading a File
+    - Refactoring to Improve Modularity and Error Handling
+    - Developing the Library’s Functionality with Test Driven Development
+    - Working with Environment Variables
+    - Writing Error Messages to Standard Error Instead of Standard Output
+- ch-13: Functional Language Features: Iterators and Closures
+    - Closures: Anonymous Functions that Capture Their Environment
+        - [Capturing the Environment with Closures](https://doc.rust-lang.org/book/ch13-01-closures.html#capturing-the-environment-with-closures), [code](https://github.com/fansuregrin/RustLearning/blob/main/shirts_promotion/src/main.rs)
