@@ -28,7 +28,7 @@ Rust is generally considered to be **a more challenging language** for beginners
 ## What's in this repository?
 There are some codes demostrated in the book: [The Rust Programming Language](https://doc.rust-lang.org/book/). Below, I will provide a corresponding list of chapters and codes in the book.
 
-- ch-12: [An I/O Project: Building a Command Line Program](https://doc.rust-lang.org/book/ch12-00-an-io-project.html), [code](https://github.com/fansuregrin/RustLearning/tree/main/minigrep)
+- ch-12: [An I/O Project: Building a Command Line Program](https://doc.rust-lang.org/book/ch12-00-an-io-project.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/minigrep)
     - Accepting Command Line Arguments
     - Reading a File
     - Refactoring to Improve Modularity and Error Handling
@@ -37,4 +37,4 @@ There are some codes demostrated in the book: [The Rust Programming Language](ht
     - Writing Error Messages to Standard Error Instead of Standard Output
 - ch-13: Functional Language Features: Iterators and Closures
     - Closures: Anonymous Functions that Capture Their Environment
-        - [Capturing the Environment with Closures](https://doc.rust-lang.org/book/ch13-01-closures.html#capturing-the-environment-with-closures), [code](https://github.com/fansuregrin/RustLearning/blob/main/shirts_promotion/src/main.rs)
+        - [Capturing the Environment with Closures](https://doc.rust-lang.org/book/ch13-01-closures.html#capturing-the-environment-with-closures), [⌨️code](https://github.com/fansuregrin/RustLearning/blob/main/shirts_promotion/src/main.rs)
