@@ -28,6 +28,51 @@ Rust is generally considered to be **a more challenging language** for beginners
 ## What's in this repository?
 There are some codes demostrated in the book: [The Rust Programming Language](https://doc.rust-lang.org/book/). Below, I have provided a corresponding list of chapters and codes in the book.
 
+- ch-01: Getting Started
+    - Installation
+    - Hello, World!
+    - Hello, Cargo!
+- ch-02: Programming a Guessing Game
+- ch-03: Common Programming Concepts
+    - Variables and Mutability
+    - Data Types
+    - Functions
+    - Comments
+    - Control Flow
+- ch-04: Understanding Ownership
+    - What is Ownership?
+    - References and Borrowing
+    - The Slice Type
+- ch-05: Using Structs to Structure Related Data
+    - Defining and Instantiating Structs
+    - An Example Program Using Structs
+    - Method Syntax
+- ch-06: Enums and Pattern Matching
+    - Defining an Enum
+    - The match Control Flow Construct
+    - Concise Control Flow with if let
+- ch-07: Managing Growing Projects with Packages, Crates, and Modules
+    - Packages and Crates
+    - Defining Modules to Control Scope and Privacy
+    - Paths for Referring to an Item in the Module Tree
+    - Bringing Paths Into Scope with the use Keyword
+    - Separating Modules into Different Files
+- ch-08: Common Collections
+    - Storing Lists of Values with Vectors
+    - Storing UTF-8 Encoded Text with Strings
+    - Storing Keys with Associated Values in Hash Maps
+- ch-09: Error Handling
+    - Unrecoverable Errors with panic!
+    - Recoverable Errors with Result
+    - To panic! or Not to panic!
+- ch-10: Generic Types, Traits, and Lifetimes
+    - Generic Data Types
+    - Traits: Defining Shared Behavior
+    - Validating References with Lifetimes
+- ch-11: [Writing Automated Tests](https://doc.rust-lang.org/book/ch11-00-testing.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/auto_test)
+    - How to Write Tests
+    - Controlling How Tests Are Run
+    - Test Organization
 - ch-12: [An I/O Project: Building a Command Line Program](https://doc.rust-lang.org/book/ch12-00-an-io-project.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/minigrep)
     - Accepting Command Line Arguments
     - Reading a File
