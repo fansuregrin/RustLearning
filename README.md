@@ -49,7 +49,7 @@ There are some codes demostrated in the book: [The Rust Programming Language](ht
     - [Defining and Instantiating Structs](https://doc.rust-lang.org/book/ch05-01-defining-structs.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/structs)
     - [An Example Program Using Structs](https://doc.rust-lang.org/book/ch05-02-example-structs.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/rectangles)
     - [Method Syntax](https://doc.rust-lang.org/book/ch05-03-method-syntax.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/rectangles)
-- ch-06: [Enums and Pattern Matching](https://doc.rust-lang.org/book/ch06-00-enums.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/enum_example)
+- ch-06: [Enums and Pattern Matching](https://doc.rust-lang.org/book/ch06-00-enums.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/enum_examples)
     - Defining an Enum
     - The match Control Flow Construct
     - Concise Control Flow with if let
@@ -60,7 +60,7 @@ There are some codes demostrated in the book: [The Rust Programming Language](ht
     - Bringing Paths Into Scope with the use Keyword
     - Separating Modules into Different Files
 - ch-08: Common Collections
-    - [Storing Lists of Values with Vectors](https://doc.rust-lang.org/book/ch08-01-vectors.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/vector_example)
+    - [Storing Lists of Values with Vectors](https://doc.rust-lang.org/book/ch08-01-vectors.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/vector_examples)
     - [Storing UTF-8 Encoded Text with Strings](https://doc.rust-lang.org/book/ch08-02-strings.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/string_examples)
     - [Storing Keys with Associated Values in Hash Maps](https://doc.rust-lang.org/book/ch08-03-hash-maps.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/hashmap_examples)
         - Three Exercises in Summary: [🎯exercise 1](https://github.com/fansuregrin/RustLearning/tree/main/median_and_mode), [🎯exercise 2](https://github.com/fansuregrin/RustLearning/tree/main/pig_latin)
