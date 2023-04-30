@@ -1,4 +1,9 @@
-# RustLearning
+<p align="center">
+  <a href="https://github.com/fansuregrin/RustLearning">
+    <img src="imgs/icons/logo.png" alt="Logo" width="224" height="224">
+  </a>
+  <h1 align="center" style="font-weight: 600">Rust Learning</h1>
+</p>
 
 ## What is Rust?
 [Rust](https://www.rust-lang.org/) is a general-purpose programming language that was developed by Mozilla. It is designed to be fast, safe, and concurrent, making it ideal for systems programming. Rust's syntax is similar to C++ and it provides memory safety without the need for **garbage collection**. Additionally, Rust has a strong focus on preventing common programming errors such as null pointer dereferencing and buffer overflows. Overall, Rust is a modern language that offers high performance and security features while still being easy to learn and use.
