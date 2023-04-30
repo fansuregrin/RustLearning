@@ -85,4 +85,53 @@ There are some codes demostrated in the book: [The Rust Programming Language](ht
     - Writing Error Messages to Standard Error Instead of Standard Output
 - ch-13: Functional Language Features: Iterators and Closures
     - Closures: Anonymous Functions that Capture Their Environment
-        - [Capturing the Environment with Closures](https://doc.rust-lang.org/book/ch13-01-closures.html#capturing-the-environment-with-closures), [⌨️code](https://github.com/fansuregrin/RustLearning/blob/main/shirts_promotion/src/main.rs)
+        - [Capturing the Environment with Closures](https://doc.rust-lang.org/book/ch13-01-closures.html#capturing-the-environment-with-closures), [⌨️code1](https://github.com/fansuregrin/RustLearning/blob/main/shirts_promotion/src/main.rs), [⌨️code2](https://github.com/fansuregrin/RustLearning/tree/main/closure_examples)
+    - [Processing a Series of Items with Iterators](https://doc.rust-lang.org/book/ch13-02-iterators.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/iterator_examples)
+    - [Improving Our I/O Project](https://doc.rust-lang.org/book/ch13-03-improving-our-io-project.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/minigrep_improved)
+    - Comparing Performance: Loops vs. Iterators
+- ch-14: More about Cargo and Crates.io
+    - Customizing Builds with Release Profiles
+    - Publishing a Crate to Crates.io
+        - Making Useful Documentation Comments, [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/doc_comments_demo)
+        - Exporting a Convenient Public API with `pub use`, [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/art)
+    - [Cargo Workspaces](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html), [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/add)
+    - Installing Binaries from Crates.io with cargo install
+    - Extending Cargo with Custom Commands
+- ch-15: Smart Pointers
+    - Using `Box<T>` to Point to Data on the Heap
+    - Treating Smart Pointers Like Regular References with the Deref Trait
+    - Running Code on Cleanup with the Drop Trait
+    - `Rc<T>`, the Reference Counted Smart Pointer
+    - `RefCell<T>` and the Interior Mutability Pattern
+    - Reference Cycles Can Leak Memory
+- ch-16: Fearless Concurrency
+    - Using Threads to Run Code Simultaneously
+    - Using Message Passing to Transfer Data Between Threads
+    - Shared-State Concurrency
+    - Extensible Concurrency with the Sync and Send Traits
+- ch-17: Object Oriented Programming Features of Rust
+    - Characteristics of Object-Oriented Languages
+    - Using Trait Objects That Allow for Values of Different Types
+    - Implementing an Object-Oriented Design Pattern
+- ch-18: Patterns and Matching
+    - All the Places Patterns Can Be Used
+    - Refutability: Whether a Pattern Might Fail to Match
+    - Pattern Syntax
+- ch-19: Advanced Features
+    - Unsafe Rust
+    - Advanced Traits
+    - Advanced Types
+    - Advanced Functions and Closures
+    - Macros
+- ch-20: Final Project: Building a Multithreaded Web Server
+    - Building a Single-Threaded Web Server
+    - Turning Our Single-Threaded Server into a Multithreaded Server
+    - Graceful Shutdown and Cleanup
+- ch-21: Appendix
+    - A - Keywords
+    - B - Operators and Symbols
+    - C - Derivable Traits
+    - D - Useful Development Tools
+    - E - Editions
+    - F - Translations of the Book
+    - G - How Rust is Made and “Nightly Rust”
