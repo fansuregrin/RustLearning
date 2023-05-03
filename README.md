@@ -103,12 +103,12 @@ There are some codes demostrated in the book: [The Rust Programming Language](ht
     - Installing Binaries from Crates.io with cargo install
     - Extending Cargo with Custom Commands
 - ch-15: Smart Pointers
-    - Using `Box<T>` to Point to Data on the Heap
-    - Treating Smart Pointers Like Regular References with the Deref Trait
-    - Running Code on Cleanup with the Drop Trait
-    - `Rc<T>`, the Reference Counted Smart Pointer
-    - `RefCell<T>` and the Interior Mutability Pattern
-    - Reference Cycles Can Leak Memory
+    - Using `Box<T>` to Point to Data on the Heap, [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/box_examples)
+    - Treating Smart Pointers Like Regular References with the Deref Trait, [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/box_examples)
+    - Running Code on Cleanup with the Drop Trait, [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/drop_examples)
+    - `Rc<T>`, the Reference Counted Smart Pointer, [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/rc_examples)
+    - `RefCell<T>` and the Interior Mutability Pattern, [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/refcell_examples)
+    - Reference Cycles Can Leak Memory, [⌨️code](https://github.com/fansuregrin/RustLearning/tree/main/ref_cycles)
 - ch-16: Fearless Concurrency
     - Using Threads to Run Code Simultaneously
     - Using Message Passing to Transfer Data Between Threads
